@@ -1,4 +1,4 @@
 FROM almalinux:8
 RUN yum install nginx -y
-ADD https://youtu.be/14CPZ3G_sGw?list=PL1jY4BuFJn1efO4Sv57kuxMBLt1ThyyUv /usr/share/nginx/tmp/
+ADD https://aws.amazon.com/docker/ /usr/share/nginx/tmp/docker.txt
 CMD ["nginx","-g","daemon off;"]

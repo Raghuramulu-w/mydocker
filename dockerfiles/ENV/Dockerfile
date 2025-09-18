@@ -1,4 +1,4 @@
-FROM almalinux:80
+FROM almalinux:8
 RUN yum install nginx -yum
 ENV trainer="raghu" \ 
     training="devops" \ 
